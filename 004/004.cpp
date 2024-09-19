@@ -1,5 +1,4 @@
-﻿
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int main()
 {
@@ -21,4 +20,3 @@ int main()
     printf("Hexadecimal value is %d\n", hex);
     printf("\n");
 }
-

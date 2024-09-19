@@ -10,7 +10,7 @@ int main()
 	scanf_s("%f", &height);
 
 	height /= 100;   // m단위로 변환
-	
+
 	float bmi = weight / (height * height);
 	printf("bmi : %.1f\n", bmi);
 }

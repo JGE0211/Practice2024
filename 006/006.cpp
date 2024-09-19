@@ -1,20 +1,20 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int main()
 {
-	printf("È­¾¾\t¼·¾¾\n");
+	printf("í™”ì”¨\tì„­ì”¨\n");
 	printf("=============\n");
 
 	float  f = 100.0;
-	float  c = (5.0 / 9)*(f - 32);    // °è»êÀÌ ½Ç¼ö·Î ³ª¿À·Á¸é,,,,  ½Ç¼ö°¡ ²À ÀÖ¾î¾ß µÊ!!!
+	float  c = (5.0 / 9) * (f - 32);    // ê³„ì‚°ì´ ì‹¤ìˆ˜ë¡œ ë‚˜ì˜¤ë ¤ë©´,,,,  ì‹¤ìˆ˜ê°€ ê¼­ ìˆì–´ì•¼ ë¨!!!
 	printf("%.1f\t%.1f\n", f, c);
 
 	float  a = 80.0;
-	float  b = (5. / 9)*( a - 32);
-	printf("%.1f\t%.1f\n", a,  b);
+	float  b = (5. / 9) * (a - 32);
+	printf("%.1f\t%.1f\n", a, b);
 
 	float  t = 60.0;
-	float  d = (5. / 9)*( t - 32);
+	float  d = (5. / 9) * (t - 32);
 	printf("%.1f\t%.1f\n", t, d);
 
 

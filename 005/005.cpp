@@ -13,5 +13,3 @@ int main()
     printf("출석점수\t%.1f점\n", d);
 
 }
-
-
